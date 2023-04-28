@@ -8,7 +8,7 @@ function Main() {
     <div className="bg-[#191724] flex rounded-xl p-11 gap-x-10">
       {/* User - Info */}
       <div style={{ fontFamily: "Poppins" }} className="w-1/3 grid text-base ">
-        <img className="my-4" src="logo.png" alt="" />
+        <img className="logo my-4" src="logo.png" alt="" />
         <p className="flex justify-center items-center gap-3 text-yellow-300">
           {" "}
           <IoLogoJavascript /> JavaScript Developer
