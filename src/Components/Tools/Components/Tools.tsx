@@ -13,13 +13,25 @@ function Tools() {
   const data_progra = progra;
   const data_frontEnd = frontEnd;
   return (
-    <div className="bg-[#991714] flex gap-5">
-      <Iconos data={data_progra} />
-      <Iconos data={data_frontEnd} />
-      <Iconos data={backEnd} />
-      <Iconos data={bd} />
-      <Iconos data={software} />
-      <Iconos data={others} />
+    <div className="grid gap-5">
+      <div className="flex gap-4">
+        <Iconos data={data_progra} />
+      </div>
+      <div className="flex gap-4">
+        <Iconos data={data_frontEnd} />
+      </div>
+      <div className="flex gap-4">
+        <Iconos data={backEnd} />
+      </div>
+      <div className="flex gap-4">
+        <Iconos data={bd} />
+      </div>
+      <div className="flex gap-4">
+        <Iconos data={software} />
+      </div>
+      <div className="flex gap-4">
+        <Iconos data={others} />
+      </div>
     </div>
   );
 }

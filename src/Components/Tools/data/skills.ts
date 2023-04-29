@@ -24,6 +24,9 @@ import {
 
 export const progra = [
   {
+    name: "Programming",
+  },
+  {
     name: "JavaScript",
     icon: SiJavascript,
     color: "fill-yellow-300",
@@ -41,6 +44,9 @@ export const progra = [
 ];
 
 export const frontEnd = [
+  {
+    name: "Front-End",
+  },
   {
     name: "HTML",
     icon: SiHtml5,
@@ -65,6 +71,9 @@ export const frontEnd = [
 
 export const backEnd = [
   {
+    name: "Back-End",
+  },
+  {
     name: "NodeJS",
     icon: SiNodedotjs,
     color: "fill-green-500",
@@ -88,9 +97,12 @@ export const backEnd = [
 
 export const bd = [
   {
+    name: "Databases",
+  },
+  {
     name: "MySQL",
     icon: SiMysql,
-    color: "fill-blue-500", 
+    color: "fill-blue-500",
   },
   {
     name: "MongoDB",
@@ -105,6 +117,9 @@ export const bd = [
 ];
 
 export const software = [
+  {
+    name: "Software",
+  },
   {
     name: "Illustrator",
     icon: SiAdobeillustrator,
@@ -123,6 +138,9 @@ export const software = [
 ];
 
 export const others = [
+  {
+    name: "Others",
+  },
   {
     name: "Linux",
     icon: SiLinux,
