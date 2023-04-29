@@ -154,11 +154,20 @@ export const others = [
   {
     name: "GitHub",
     icon: SiGithub,
-    color: "fill-black",
+    color: "fill-white",
   },
   {
     name: "Trello",
     icon: SiTrello,
     color: "fill-blue-500",
   },
+];
+
+export const skillsData = [
+  { name: "Programación", items: progra },
+  { name: "Front-end", items: frontEnd },
+  { name: "Back-end", items: backEnd },
+  { name: "Bases de datos", items: bd },
+  { name: "Software", items: software },
+  { name: "Otros", items: others },
 ];

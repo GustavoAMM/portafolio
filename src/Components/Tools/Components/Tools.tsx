@@ -1,37 +1,14 @@
 import Iconos from "./Label";
-
-import {
-  progra,
-  frontEnd,
-  backEnd,
-  bd,
-  software,
-  others,
-} from "../data/skills";
+import { skillsData } from "../data/skills";
 
 function Tools() {
-  const data_progra = progra;
-  const data_frontEnd = frontEnd;
   return (
     <div className="grid gap-5">
-      <div className="flex gap-4">
-        <Iconos data={data_progra} />
-      </div>
-      <div className="flex gap-4">
-        <Iconos data={data_frontEnd} />
-      </div>
-      <div className="flex gap-4">
-        <Iconos data={backEnd} />
-      </div>
-      <div className="flex gap-4">
-        <Iconos data={bd} />
-      </div>
-      <div className="flex gap-4">
-        <Iconos data={software} />
-      </div>
-      <div className="flex gap-4">
-        <Iconos data={others} />
-      </div>
+      {skillsData.map((category, index) => (
+        <div className="flex gap-4" key={index}>
+          <Iconos data={category.items} />
+        </div>
+      ))}
     </div>
   );
 }
