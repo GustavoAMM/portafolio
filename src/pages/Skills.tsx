@@ -1,4 +1,7 @@
+import Tools from "../Components/Tools/Components/Tools";
 function Skills() {
-  return <h1>Skills</h1>;
+  return <div>
+    <Tools />
+  </div>
 }
 export default Skills;
