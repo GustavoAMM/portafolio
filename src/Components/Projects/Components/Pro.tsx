@@ -16,11 +16,17 @@ function Pro() {
   return (
     <div className="grid bg-red-800">
       <Input placeholder="Search" value={search} onChange={handleChange} />
-      <div className=" p-5 flex gap-4">
-        {filteredData.map((item) => (
-          <Card data={item} key={item.id} />
-        ))}
-      </div>
+      {filteredData.length === 0 ? (
+        <div className="flex justify-center mt-4">
+          <h1>No hay resultados</h1>
+        </div>
+      ) : (
+        <div className=" p-5 flex gap-4">
+          {filteredData.map((item) => (
+            <Card data={item} key={item.id} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

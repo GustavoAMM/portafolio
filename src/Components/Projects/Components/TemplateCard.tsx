@@ -14,43 +14,52 @@ function TemplateCard(props: {
     url: string;
   };
 }) {
-  return (
-    <a href="">
-      <Card
-        className="w-60 h-[330px] text-white"
-        bg={"#191724"}
-        borderRadius={"2xl"}
-      >
-        <CardBody>
-          <Image
-            src={props.data.image}
-            alt="Green double couch with wooden legs"
-            borderRadius="md"
-          />
-          <Stack mt="2" spacing="3">
-            <Heading size="md" color={"white"}>
-              {props.data.name}
-            </Heading>
-            <div className="container_text">{props.data.description}</div>
-          </Stack>
-          <div className="container_tags">
-            {props.data.tags.map((tag) => (
-              <Tag
-                mx={1}
-                size="xs"
-                colorScheme="red"
-                borderRadius="md"
-                key={tag}
-              >
-                <TagLabel p={1} fontSize={12}>
-                  {tag}
-                </TagLabel>
-              </Tag>
-            ))}
-          </div>
-        </CardBody>
-      </Card>
-    </a>
-  );
+  console.log(props.data);
+
+  if (!props.data) {
+    return (
+      <div>
+        <h1>HOla</h1>
+      </div>
+    );
+  } else
+    return (
+      <a href="">
+        <Card
+          className="w-60 h-[330px] text-white"
+          bg={"#191724"}
+          borderRadius={"2xl"}
+        >
+          <CardBody>
+            <Image
+              src={props.data.image}
+              alt="Green double couch with wooden legs"
+              borderRadius="md"
+            />
+            <Stack mt="2" spacing="3">
+              <Heading size="md" color={"white"}>
+                {props.data.name}
+              </Heading>
+              <div className="container_text">{props.data.description}</div>
+            </Stack>
+            <div className="container_tags">
+              {props.data.tags.map((tag) => (
+                <Tag
+                  mx={1}
+                  size="xs"
+                  colorScheme="red"
+                  borderRadius="md"
+                  key={tag}
+                >
+                  <TagLabel p={1} fontSize={12}>
+                    {tag}
+                  </TagLabel>
+                </Tag>
+              ))}
+            </div>
+          </CardBody>
+        </Card>
+      </a>
+    );
 }
 export default TemplateCard;
