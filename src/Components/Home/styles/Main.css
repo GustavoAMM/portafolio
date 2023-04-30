@@ -13,3 +13,11 @@
     transform: translateY(0px);
   }
 }
+
+.job-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  font-weight: bold;
+}

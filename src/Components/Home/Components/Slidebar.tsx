@@ -1,26 +1,24 @@
 import { BiUser, BiCake, BiBuildingHouse } from "react-icons/bi";
 
-function Slidebar() {
+function Sidebar() {
   return (
-    <div
-      style={{ fontFamily: "Poppins" }}
-      className="bg-[#191724] rounded-xl text-white grid justify-items-center gap-y-5"
-    >
-      <h2 className="font-extrabold text-[24px] mt-10">
+    <div className="bg-gray-900 rounded-xl text-white grid justify-items-center gap-y-5 p-10">
+      <h2 className="font-extrabold text-2xl">
         About <span className="text-red-500">Me</span>
       </h2>
-      <div className="grid gap-3 items-center mb-10">
-        <p className="flex gap-x-4 items-center">
-          <BiUser /> Age 21
+      <div className="grid gap-3 items-center">
+        <p className="flex items-center">
+          <BiUser className="mr-2" /> 21 years old
         </p>
-        <p className="flex gap-x-4 items-center">
-          <BiCake /> BIrthday: 31 March
+        <p className="flex items-center">
+          <BiCake className="mr-2" /> Born on March 31st
         </p>
-        <p className="flex gap-x-4 items-center">
-          <BiBuildingHouse /> Country: México
+        <p className="flex items-center">
+          <BiBuildingHouse className="mr-2" /> From México
         </p>
       </div>
     </div>
   );
 }
-export default Slidebar;
+
+export default Sidebar;

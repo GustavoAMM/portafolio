@@ -6,36 +6,24 @@ import "../styles/Main.css";
 function Main() {
   return (
     <div className="bg-[#191724] flex rounded-xl p-11 gap-x-10">
-      {/* User - Info */}
-      <div style={{ fontFamily: "Poppins" }} className="w-1/3 grid text-base ">
-        <img className="logo my-4" src="logo.png" alt="" />
-        <p className="flex justify-center items-center gap-3 text-yellow-300">
-          {" "}
-          <IoLogoJavascript /> JavaScript Developer
-        </p>
-        <p className="flex justify-center items-center gap-3 text-cyan-400">
-          {" "}
-          <GrReactjs /> React Frontend
-        </p>
-        <p className="flex justify-center items-center gap-3 text-red-500">
-          {" "}
-          <SiNestjs /> Nest Backend
-        </p>
+      <div className="w-1/3 grid text-base font-[Poppins]">
+        <img className="logo my-4" src="logo.png" />
+        <div className="grid justify-center items-center">
+          <p className="job-description text-yellow-300">
+            <IoLogoJavascript /> JavaScript Developer
+          </p>
+          <p className="job-description text-cyan-400">
+            <GrReactjs /> React Frontend
+          </p>
+          <p className="job-description text-red-500">
+            <SiNestjs /> Nest Backend
+          </p>
+        </div>
       </div>
-
-      {/* User - Text */}
       <div className="w-2/3 grid content-center gap-5 ">
         <div>
-          <h1
-            style={{ fontFamily: "Poppins" }}
-            className="text-white text-[26px]"
-          >
-            I'm
-          </h1>
-          <span
-            style={{ fontFamily: "Poppins" }}
-            className="text-red-500 font-extrabold text-[50px]"
-          >
+          <h1 className="text-white text-[26px] font-[Poppins]">I'm</h1>
+          <span className="text-red-500 font-extrabold text-[50px] font-[Poppins]]">
             <Typewriter
               words={["Angel Montoya", "Developer", "CompSysEng"]}
               loop={100}
@@ -47,7 +35,7 @@ function Main() {
             />
           </span>
         </div>
-        <p style={{ fontFamily: "Poppins" }} className="text-white">
+        <p className="text-white font-[Poppins] text-justify">
           My name is Angel, I am a 20-year-old Mexican programmer who likes to
           develop many different things that come from my imagination. I am very
           passionate about programming and cybersecurity, I am fullstack but I
