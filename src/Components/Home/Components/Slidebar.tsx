@@ -2,7 +2,7 @@ import { BiUser, BiCake, BiBuildingHouse } from "react-icons/bi";
 
 function Sidebar() {
   return (
-    <div className="bg-gray-900 rounded-xl text-white grid justify-items-center gap-y-5 p-10">
+    <div className="bg-[#191724] rounded-xl text-white grid justify-items-center gap-y-5 p-10">
       <h2 className="font-extrabold text-2xl">
         About <span className="text-red-500">Me</span>
       </h2>
