@@ -1,10 +1,10 @@
-import "../styles/Main.css";
 import { data } from "../data/data";
 import { labels } from "../data/labels";
-import Card from "./TemplateCard";
-import ErrorCard from "./ErrorCard";
 import { Input, Button } from "@chakra-ui/react";
 import { useState } from "react";
+import ErrorCard from "./ErrorCard";
+import Card from "./TemplateCard";
+import "../styles/Main.css";
 
 function Pro() {
   const [search, setSearch] = useState("");
@@ -22,7 +22,6 @@ function Pro() {
 
   return (
     <div className="container_main">
-
       <Input
         placeholder="Search"
         value={search}

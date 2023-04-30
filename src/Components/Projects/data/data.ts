@@ -31,7 +31,7 @@ export const data = [
     image: "https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg",
     name: "Proyecto 4",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     tags: ["prueba 1"],
     url: "https://www.google.com",
   },

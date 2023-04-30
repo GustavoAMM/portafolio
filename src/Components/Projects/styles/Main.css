@@ -7,7 +7,7 @@
   height: 500px;
 }
 
-.container_labels{
+.container_labels {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
@@ -29,8 +29,9 @@
   height: 90px;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-size: small;
+  font-size: medium;
   color: white;
+  margin-top: 5px;
 }
 
 .container_text::-webkit-scrollbar {
@@ -48,7 +49,7 @@
   margin: 3px;
   width: 220px;
   display: flex;
-  margin-top: 20px;
+  margin-top: 15px;
   width: 190px;
 }
 
