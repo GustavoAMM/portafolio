@@ -33,3 +33,16 @@
   background-color: blue;
   border-radius: 20px;
 }
+
+.container_cards {
+  overflow-x: hidden;
+}
+
+.container_cards::-webkit-scrollbar {
+  width: 5px;
+}
+
+.container_cards::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+}

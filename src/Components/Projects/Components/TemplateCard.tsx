@@ -27,7 +27,7 @@ function TemplateCard(props: {
       <a href="">
         <Card
           className="w-60 h-[330px] text-white"
-          bg={"#191724"}
+          bg={"#23253B"}
           borderRadius={"2xl"}
         >
           <CardBody>
