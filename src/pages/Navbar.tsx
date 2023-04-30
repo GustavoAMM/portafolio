@@ -12,8 +12,16 @@ import {
 } from "react-icons/ti";
 import { useState } from "react";
 function Navbar() {
-  const [dir, setDir] = useState("Home");
-  console.log("dir", dir);
+  const [dir, setDir] = useState(() => {
+    const path = window.location.pathname;
+    if (path === "/skills") {
+      return "Skills";
+    } else if (path === "/projects") {
+      return "Projects";
+    } else {
+      return "Home";
+    }
+  });
 
   return (
     <div className="flex flex-col h-screen">
@@ -56,9 +64,7 @@ function Navbar() {
               }
             >
               <TiFolderOpen
-                className={
-                  dir === "Projects" ? "fill-red-500" : "fill-white"
-                }
+                className={dir === "Projects" ? "fill-red-500" : "fill-white"}
               />
               Projects
             </p>
