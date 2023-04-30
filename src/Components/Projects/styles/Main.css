@@ -1,3 +1,30 @@
+.container_main {
+  display: grid;
+  background: #191724;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  width: 900px;
+  height: 500px;
+}
+
+.container_labels{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 800px;
+  overflow-x: scroll;
+}
+
+.container_labels::-webkit-scrollbar {
+  height: 2px;
+}
+
+.container_labels::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+}
+
 .container_text {
   height: 90px;
   overflow-y: scroll;
