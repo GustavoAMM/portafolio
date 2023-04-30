@@ -1,11 +1,11 @@
-export const Proyectos = [
+export const data = [
   {
     id: 1,
     image: "https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg",
     name: "Proyecto 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    tags: ["React", "Node", "MongoDB"],
+    tags: ["HTMLS", "CSS", "React", "JavaScript"],
     url: "https://www.google.com",
   },
   {
@@ -14,7 +14,16 @@ export const Proyectos = [
     name: "Proyecto 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    tags: ["React", "Node", "MongoDB"],
+    tags: ["Node", "Nestjs", "Php", "Laravel"],
+    url: "https://www.google.com",
+  },
+  {
+    id: 3,
+    image: "https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg",
+    name: "Proyecto 3",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    tags: ["Mysql", "MariaDB", "MongoDB", "PostgreSQL"],
     url: "https://www.google.com",
   },
 ];

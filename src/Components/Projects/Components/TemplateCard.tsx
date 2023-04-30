@@ -1,4 +1,4 @@
-import { Card, CardBody, CardFooter } from "@chakra-ui/react";
+import { Card, CardBody } from "@chakra-ui/react";
 import { Stack } from "@chakra-ui/react";
 import { Heading } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
@@ -16,12 +16,16 @@ function TemplateCard(props: {
 }) {
   return (
     <a href="">
-      <Card className="w-60 h-[330px] text-white " bg={"#191724"}>
+      <Card
+        className="w-60 h-[330px] text-white"
+        bg={"#191724"}
+        borderRadius={"2xl"}
+      >
         <CardBody>
           <Image
             src={props.data.image}
             alt="Green double couch with wooden legs"
-            borderRadius="lg"
+            borderRadius="md"
           />
           <Stack mt="2" spacing="3">
             <Heading size="md" color={"white"}>

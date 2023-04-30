@@ -1,4 +1,4 @@
-import Tools from "../Components/Tools/Components/Tools";
+import Tools from "../Components/Skills/Components/Tools";
 function Skills() {
   return <>
     <Tools />
