@@ -144,7 +144,7 @@ export const others = [
   {
     name: "Linux",
     icon: SiLinux,
-    color: "fill-yellow-500",
+    color: "fill-amber-300",
   },
   {
     name: "Git",

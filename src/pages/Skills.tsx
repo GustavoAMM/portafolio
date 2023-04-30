@@ -1,7 +1,7 @@
 import Tools from "../Components/Tools/Components/Tools";
 function Skills() {
-  return <div>
+  return <>
     <Tools />
-  </div>
+  </>
 }
 export default Skills;

@@ -1,4 +1,10 @@
+import Pro from "../Components/Projects/Components/Pro";
+
 function Projects() {
-  return <h1>Projects</h1>;
+  return (
+    <>
+      <Pro />
+    </>
+  );
 }
 export default Projects;
