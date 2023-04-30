@@ -28,6 +28,7 @@ function Pro() {
         value={search}
         onChange={handleChange}
         color={"white"}
+        autoFocus={true}
       />
 
       <div className="container_labels">

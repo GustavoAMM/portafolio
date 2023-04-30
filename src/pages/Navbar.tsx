@@ -35,10 +35,21 @@ function Navbar() {
           </Link>
         </nav>
         <nav className="w-1/2 flex items-center justify-end gap-10 px-10">
-          <RiGithubLine />
-          <RiLinkedinBoxLine />
-          <RiTwitterLine />
-          <RiInstagramLine />
+          <a href="https://github.com/GustavoAMM" target="_blank">
+            <RiGithubLine className="fill-gray-300" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/angel-montoya-mtz"
+            target="_blank"
+          >
+            <RiLinkedinBoxLine className="fill-blue-400" />
+          </a>
+          <a href="https://twitter.com/soyangel_m245" target="_blank">
+            <RiTwitterLine className="fill-blue-600" />
+          </a>
+          <a href="https://www.instagram.com/soyangel_m/" target="_blank">
+            <RiInstagramLine className="fill-red-500" />
+          </a>
         </nav>
       </div>
       <div className="mx-12 flex-1 overflow-y-aut mb-5 flex items-center justify-center">
