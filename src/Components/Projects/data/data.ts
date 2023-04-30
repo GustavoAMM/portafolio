@@ -32,7 +32,7 @@ export const data = [
     name: "Proyecto 4",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    tags: ["Mysql", "MariaDB", "MongoDB", "PostgreSQL"],
+    tags: ["prueba 1"],
     url: "https://www.google.com",
   },
   {
@@ -41,7 +41,7 @@ export const data = [
     name: "Proyecto 5",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    tags: ["Mysql", "MariaDB", "MongoDB", "PostgreSQL"],
+    tags: ["prueba 2"],
     url: "https://www.google.com",
   },
   {
@@ -50,7 +50,7 @@ export const data = [
     name: "Proyecto 6",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    tags: ["Mysql", "MariaDB", "MongoDB", "PostgreSQL"],
+    tags: ["prueba 3"],
     url: "https://www.google.com",
   },
   {
@@ -59,7 +59,7 @@ export const data = [
     name: "Proyecto 7",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    tags: ["Mysql", "MariaDB", "MongoDB", "PostgreSQL"],
+    tags: ["prueba 4"],
     url: "https://www.google.com",
-  }
+  },
 ];

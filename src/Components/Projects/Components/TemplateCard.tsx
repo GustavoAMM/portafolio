@@ -14,8 +14,6 @@ function TemplateCard(props: {
     url: string;
   };
 }) {
-  console.log(props.data);
-
   if (!props.data) {
     return (
       <div>
