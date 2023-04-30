@@ -10,26 +10,56 @@ import {
   TiInfoLargeOutline,
   TiHomeOutline,
 } from "react-icons/ti";
-
+import { useState } from "react";
 function Navbar() {
+  const [dir, setDir] = useState("Home");
+  console.log("dir", dir);
+
   return (
     <div className="flex flex-col h-screen">
       <div className="flex bg-[#191724] text-white rounded-xl h-12 my-5 mx-12 ">
         <nav className="flex items-center justify-start gap-10 px-10 w-1/2">
-          <Link to="/">
-            <p className="flex items-center gap-2">
-              <TiHomeOutline /> Home
+          <Link to="/" onClick={() => setDir("Home")}>
+            <p
+              className={
+                dir === "Home"
+                  ? "text-red-500 flex items-center gap-2"
+                  : "fill-white flex items-center gap-2"
+              }
+            >
+              <TiHomeOutline
+                className={dir === "Home" ? "fill-red-500" : "fill-white"}
+              />
+              Home
             </p>
           </Link>
-          <Link to="/skills">
-            <p className="flex items-center gap-2">
-              <TiInfoLargeOutline />
+          <Link to="/skills" onClick={() => setDir("Skills")}>
+            <p
+              className={
+                dir === "Skills"
+                  ? "text-red-500 flex items-center gap-2"
+                  : "fill-white flex items-center gap-2"
+              }
+            >
+              <TiInfoLargeOutline
+                className={dir === "Skills" ? "fill-red-500" : "fill-white"}
+              />
               Skills
             </p>
           </Link>
-          <Link to="/projects">
-            <p className="flex items-center gap-2">
-              <TiFolderOpen />
+          <Link to="/projects" onClick={() => setDir("Projects")}>
+            <p
+              className={
+                dir === "Projects"
+                  ? "text-red-500 flex items-center gap-2"
+                  : "fill-white flex items-center gap-2"
+              }
+            >
+              <TiFolderOpen
+                className={
+                  dir === "Projects" ? "fill-red-500" : "fill-white"
+                }
+              />
               Projects
             </p>
           </Link>
@@ -48,7 +78,7 @@ function Navbar() {
             <RiTwitterLine className="fill-blue-600" />
           </a>
           <a href="https://www.instagram.com/soyangel_m/" target="_blank">
-            <RiInstagramLine className="fill-red-500" />
+            <RiInstagramLine className="fill-red-400" />
           </a>
         </nav>
       </div>
