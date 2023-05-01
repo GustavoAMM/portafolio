@@ -28,11 +28,10 @@ function Navbar() {
   let inactive = "fill-white flex items-center gap-2";
 
   return (
-    <>
-      <div className="container_header">
-        <div className="container_navbar xl:flex sm:flex grid xl:justify-between sm:justify-between justify-items-center">
-          <nav className="flex items-center xl:justify-start sm:justify-start justify-center gap-10 px-10 w-1/2">
-
+    <div className="flex flex-col min-h-screen">
+      <div className="container_header bg-red-400 w-full h-32 grid content-center">
+        <div className="container_navbar xl:flex sm:flex grid xl:justify-between sm:justify-between justify-items-center xl:mx-4 md:mx-4 sm:mx-0 mx-2">
+          <nav className="flex items-center xl:justify-start sm:justify-start justify-center gap-7 px-5 w-0">
             <Link to="/" onClick={() => setDir("Home")}>
               <p className={dir === "Home" ? active : inactive}>
                 <TiHomeOutline className={dir === "Home" ? active : inactive} />
@@ -75,12 +74,10 @@ function Navbar() {
           </nav>
         </div>
       </div>
-      <div className="container_footer">
-        <div className="container_render">
-          <Outlet />
-        </div>
+      <div className="flex-grow container_footer bg-emerald-600 w-full flex justify-center items-center">
+        <Outlet />
       </div>
-    </>
+    </div>
   );
 }
 
