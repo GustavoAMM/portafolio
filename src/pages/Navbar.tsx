@@ -29,7 +29,7 @@ function Navbar() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="container_header bg-red-400 w-full h-32 grid content-center">
+      <div className="container_header w-full h-24 grid content-center">
         <div className="container_navbar xl:flex sm:flex grid xl:justify-between sm:justify-between justify-items-center xl:mx-4 md:mx-4 sm:mx-0 mx-2">
           <nav className="flex items-center xl:justify-start sm:justify-start justify-center gap-7 px-5 w-0">
             <Link to="/" onClick={() => setDir("Home")}>
@@ -74,7 +74,7 @@ function Navbar() {
           </nav>
         </div>
       </div>
-      <div className="flex-grow container_footer bg-emerald-600 w-full flex justify-center items-center">
+      <div className="flex-grow w-full flex justify-center items-center">
         <Outlet />
       </div>
     </div>

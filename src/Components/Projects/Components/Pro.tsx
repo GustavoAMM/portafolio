@@ -21,7 +21,7 @@ function Pro() {
   });
 
   return (
-    <div className="container_main  xl:w-[900px] md:w-[700px] w-[350px] xl:h-[500px] md:h-[900px] h-[600px] xl:mb-0 md:mb-4 mb-4">
+    <div className="container_main  xl:w-[900px] md:w-[700px] w-[350px] xl:h-[500px] md:h-[900px] h-[700px] xl:mb-0 md:mb-4 mt-0">
       <Input
         placeholder="Search"
         value={search}
