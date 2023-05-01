@@ -21,7 +21,7 @@ function Main() {
         </div>
       </div>
       <div className="w-2/3 grid content-center gap-5 ">
-        <div>
+{        <div>
           <h1 className="text-white text-[26px] font-[Poppins]">I'm</h1>
           <span className="text-red-500 font-extrabold text-[50px] font-[Poppins]]">
             <Typewriter
@@ -34,7 +34,7 @@ function Main() {
               delaySpeed={1000}
             />
           </span>
-        </div>
+        </div>}
         <p className="text-white font-[Poppins] text-justify">
           My name is Angel, I am a 20-year-old Mexican programmer who likes to
           develop many different things that come from my imagination. I am very
