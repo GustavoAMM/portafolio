@@ -22,7 +22,7 @@ function Main() {
       </div>
       <div className="w-full grid content-center">
         {
-          <div className="xl:px-2 px-12">
+          <div className="xl:px-0 px-12 my-4">
             <h1 className="text-white xl:text-[26px] md:text-[20px] font-[Poppins]">
               I'm
             </h1>
