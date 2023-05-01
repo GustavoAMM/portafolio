@@ -1,18 +1,14 @@
 .container_main {
   display: grid;
   background: #191724;
-  padding: 3rem;
-  border-radius: 0.5rem;
-  width: 900px;
-  height: 500px;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 .container_labels {
   display: flex;
-  justify-content: center;
   margin-bottom: 10px;
   margin-top: 10px;
-  width: 800px;
   overflow-x: scroll;
 }
 

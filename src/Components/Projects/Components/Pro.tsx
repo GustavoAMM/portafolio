@@ -21,13 +21,14 @@ function Pro() {
   });
 
   return (
-    <div className="container_main">
+    <div className="container_main  xl:w-[900px] md:w-[700px] w-[350px] xl:h-[500px] md:h-[900px] h-[600px] xl:mb-0 md:mb-4 mb-4">
       <Input
         placeholder="Search"
         value={search}
         onChange={handleChange}
         color={"white"}
         autoFocus={true}
+        width='auto'
       />
 
       <div className="container_labels">
@@ -57,7 +58,7 @@ function Pro() {
           <ErrorCard />
         </div>
       ) : (
-        <div className="container_cards p-5 grid grid-cols-3 gap-4">
+        <div className="container_cards p-5 grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
           {filteredData.map((item) => (
             <Card data={item} key={item.id} />
           ))}
