@@ -4,8 +4,8 @@ export const labels = [
     name: "All",
   },
   {
-    id: "JavaScript",
-    name: "JavaScript",
+    id: "Typescript",
+    name: "Typescript",
   },
   {
     id: "React",
@@ -16,19 +16,31 @@ export const labels = [
     name: "Node",
   },
   {
-    id: "Nestjs",
-    name: "Nestjs",
+    id: "Angular",
+    name: "Angular",
   },
   {
-    id: "Php",
-    name: "Php",
+    id: "Python",
+    name: "Python",
   },
   {
-    id: "Laravel",
-    name: "Laravel",
+    id: "Docker",
+    name: "Docker",
   },
   {
     id: "Mysql",
     name: "Mysql",
+  },
+  {
+    id: "Nestjs",
+    name: "Nestjs",
+  },
+  {
+    id: "Linux",
+    name: "Linux",
+  },
+  {
+    id: "Laravel",
+    name: "Laravel",
   },
 ];
